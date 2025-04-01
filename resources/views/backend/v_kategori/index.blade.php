@@ -9,7 +9,7 @@
         Untuk informasi lebih lanjut mengenai DataTables, Mohon Kunjungi <a target="_blank"
             href="https://datatables.net">official DataTables documentation</a>.</p>
 
-    <button type="button" data-toggle="modal" data-target="#tambahModal" class="d-none d-sm-inline-block btn btn-sm btn-primary btn-icon-split shadow-sm mb-4">
+    <button type="button" data-toggle="modal" data-target="#tambahModal" class="d-sm-inline-block btn btn-sm btn-primary btn-icon-split shadow-sm mb-4">
         <span class="icon text-white-50"><i class="fas fa-plus fa-sm"></i></span>
         <span class="text">Tambah Kategori</span>
     </button>
