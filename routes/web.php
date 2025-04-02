@@ -9,7 +9,7 @@ use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
     // return view('welcome');
-    return redirect(route(backend.login));
+    return redirect(backend/login);
 });
 
 // Pengguna yang sudah login (login) tidak dapat mengakses route ini
