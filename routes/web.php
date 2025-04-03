@@ -7,9 +7,7 @@ use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\ProdukController;
 use App\Http\Controllers\UserController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [AuthController::class, 'index']);
 
 // Pengguna yang sudah login (login) tidak dapat mengakses route ini
 Route::middleware('auth.state:login')->group(function () {
