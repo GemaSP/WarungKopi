@@ -8,7 +8,7 @@ use App\Http\Controllers\ProdukController;
 use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
-    return view('backend.v_auth.index');
+    return view('welcome');
 });
 
 // Pengguna yang sudah login (login) tidak dapat mengakses route ini
